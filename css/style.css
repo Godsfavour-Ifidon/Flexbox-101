@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+
+
+*{
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+}
+
+body{
+    background-color: rgb(215, 215, 236);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+#hero{
+    max-width: 1500px;
+}
+
+
+.container{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 30px;
+}
+
+
+#nav{
+    background-color: rgb(32, 32, 233);
+    
+}
+
+#nav .container{
+    align-items: center;
+    display:flex;
+    color: #fff;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ .menu ul{
+   display: flex; 
+   list-style-type: none;
+}
+
+.menu ul li{
+    margin-right: 10px;
+    font-size: 18px;
+   font-weight: 600;
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: aliceblue;
+}
+
+#hero{
+    background-color: rgb(18, 18, 214);
+    color: #fff;
+    padding: 22px;
+   text-align: center;
+}
+
+
+
+img{
+    min-width: 100%;
+}
+
+    
+
+#hero img{
+  min-width: 300px
+}
+
+.hero-content{
+    margin-bottom: 25px;
+}
+
+
+.hero-content h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.hero-content p{
+    font-size: 15px;
+}
+
+
+#boxes .container{
+    display: inline-block;
+}
+
+.box{
+    /* flex: 1; */
+    background-color: blue;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0px 3px 5px red;
+}
+
+
+.box h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.box i{
+  margin-right: 8px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 576px){
+    #hero .container{
+       display: flex;
+       align-items: center;
+    }
+
+    .hero-content p{
+    font-size: .9rem;
+   
+    }
+
+
+    .hero-content p{
+        font-size: 16px;
+    }
+
+
+    #boxes .container{
+        display: flex;
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
